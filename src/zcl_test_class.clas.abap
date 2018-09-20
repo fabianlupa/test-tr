@@ -6,6 +6,7 @@ CLASS zcl_test_class DEFINITION
 
   PUBLIC SECTION.
     METHODS:
+      "! Change
       new_method.
   PROTECTED SECTION.
   PRIVATE SECTION.
