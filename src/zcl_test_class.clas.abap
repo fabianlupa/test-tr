@@ -5,6 +5,8 @@ CLASS zcl_test_class DEFINITION
   CREATE PUBLIC.
 
   PUBLIC SECTION.
+    METHODS:
+      new_method.
   PROTECTED SECTION.
   PRIVATE SECTION.
 ENDCLASS.
@@ -12,4 +14,7 @@ ENDCLASS.
 
 
 CLASS zcl_test_class IMPLEMENTATION.
+  METHOD new_method.
+
+  ENDMETHOD.
 ENDCLASS.
